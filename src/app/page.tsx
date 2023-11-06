@@ -1,17 +1,17 @@
 // pages/index.tsx
 import Link from 'next/link';
-import { NextPage } from 'next';
+import styles from './page.module.css';
 
-const Home: NextPage = () => {
+const Home = () => {
   return (
-    <div>
+    <div className={styles.container}>
       <h1>Welcome to the Home Page</h1>
-      <nav>
+      <nav className={styles.nav}>
         <Link href="/login">
-          <a>Login</a>
+          <a className={styles.link}>Login</a>
         </Link>
         <Link href="/signup">
-          <a>Create Account</a>
+          <a className={styles.link}>Create Account</a>
         </Link>
       </nav>
     </div>
