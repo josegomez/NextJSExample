@@ -8,19 +8,19 @@
     border-radius: 5px;
   }
   
-  form {
+  .loginform {
     display: flex;
     flex-direction: column;
   }
   
-  input {
+  .inputlogin {
     margin-bottom: 10px;
     padding: 8px;
     border: 1px solid #ccc;
     border-radius: 4px;
   }
   
-  button {
+  .loginbutton {
     padding: 10px;
     background-color: #0070f3;
     color: white;
@@ -29,4 +29,20 @@
     cursor: pointer;
   }
   
+  .error {
+    color: red; /* Red text for errors */
+    margin: 10px 0; /* Add some spacing around the message */
+    font-size: 0.9rem; /* Slightly smaller font size */
+    text-align: center; /* Center the text */
+  }
+
+  .aBack {
+    margin-top: 15px;
+    color: #0070f3;
+    text-decoration: none;
+  }
+  
+  .aBack:hover {
+    text-decoration: underline;
+  }
   

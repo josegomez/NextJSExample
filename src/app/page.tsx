@@ -7,11 +7,11 @@ const Home = () => {
     <div className={styles.container}>
       <h1>Welcome to the Home Page</h1>
       <nav className={styles.nav}>
-        <Link href="/login">
-          <a className={styles.link}>Login</a>
+        <Link href="/login" className={styles.link}>
+          Login
         </Link>
-        <Link href="/signup">
-          <a className={styles.link}>Create Account</a>
+        <Link href="/signup" className={styles.link}>
+          Create Account
         </Link>
       </nav>
     </div>
